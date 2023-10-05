@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: url('/IMAGE/capa.jpg');
+    background-position: center;
+}
+
+.cabecalho {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     padding: 100px;
+}
+.cabecalho-imagem {
+    height: 430px;
+    width: 150pxpx;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.cabecalho-menu-item {
+    font-family: 'Young Serif', serif;
+    color: white;
+    font: weight 400px;;
+
+    font-size: 28px;
+}
+
+.conteudo {
+    margin bottom: 48px;
+    border-top: 0.4px solid white;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-gravadora{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conteudo-principal-titulo {
+    margin-top: 250px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+    color: white;
+}
+
+.conteudo-principal-paragrafo {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    border-bottom: ;
+
+}
+
+.conteudo-principal-botao {
+
+    margin-top: 50px;
+    background-color: rgb(37, 37, 44) ;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+
+.conteudo-principal-botao: hover {
+    background-color: (236,214,196,0.53)
+}
+
+.conteudo-img {
+    height: 430px;
+    width: 150pxpx;
+    margin-top: 250px;
+}
+
+.conteudo2 {
+    display: block;
+    text-align: center;
+}
+
+.footer {
+   text-align: center;
+    padding: 32px;
+    margin bottom: 48px;
+    border-top: 0.4px solid white;
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+    
+    
+}
+
+
